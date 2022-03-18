@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b7c5b1-11ea-40e7-b0c7-599ce0468f6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +56,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webapp/WEB-INF/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.152439" />
@@ -184,7 +187,13 @@
       <workItem from="1640693274198" duration="422000" />
       <workItem from="1640693743262" duration="7742000" />
       <workItem from="1640701713095" duration="5827000" />
-      <workItem from="1640771186225" duration="10727000" />
+      <workItem from="1640771186225" duration="12020000" />
+      <workItem from="1640789741347" duration="114000" />
+      <workItem from="1640856545016" duration="9523000" />
+      <workItem from="1641479120050" duration="3195000" />
+      <workItem from="1647458210119" duration="176000" />
+      <workItem from="1647518323575" duration="808000" />
+      <workItem from="1647623837918" duration="752000" />
     </task>
     <servers />
   </component>
@@ -207,6 +216,6 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pre_project_Task_2_2_2$Tomcat_9_0_56.ic" NAME="Tomcat 9.0.56 Coverage Results" MODIFIED="1640784999319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Pre_project_Task_2_2_2$Tomcat_9_0_56.ic" NAME="Tomcat 9.0.56 Coverage Results" MODIFIED="1640876136876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
