@@ -6,7 +6,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import web.model.Car;
-import web.service.CarsInit;
+import web.service.CarsInitImpl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,14 +15,11 @@ import java.util.stream.Collectors;
 public class CarsController {
 
     @Autowired
-    private CarsInit carsInit;
+    private CarsInitImpl carsInitImpl;
 
     @GetMapping(value = "/cars")
     public String printWelcome(@RequestParam(name = "count", required = false) Integer number, ModelMap model) {
-        List<Car> carList = carsInit.getCars();
-        if (number != null) {
-            carList = carsInit.getCars().stream().limit(number).collect(Collectors.toList());
-        }
+        List<Car> carList = carsInitImpl.getCarsByParameter(number);
         model.addAttribute("cars", carList);
         return "cars";
     }

@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b7c5b1-11ea-40e7-b0c7-599ce0468f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsInitImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarsInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarsInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -193,7 +196,8 @@
       <workItem from="1641479120050" duration="3195000" />
       <workItem from="1647458210119" duration="176000" />
       <workItem from="1647518323575" duration="808000" />
-      <workItem from="1647623837918" duration="752000" />
+      <workItem from="1647623837918" duration="1821000" />
+      <workItem from="1648049270454" duration="3770000" />
     </task>
     <servers />
   </component>
